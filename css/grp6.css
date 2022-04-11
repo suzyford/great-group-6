@@ -1,5 +1,42 @@
 /*Amanda's CSS CodingNepal on YouTube used as reference*/
 
+.logo{
+   width: 46px;
+   height: 46px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-top: -6px;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #c6e0d5;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 34px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 40px; /* Add a top margin to avoid content overlay */
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +48,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: blue;
+  background-color: #fdf5ea;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -91,5 +128,5 @@ padding: 18px 25px 20px;
   font-size: 14px;
   padding: 9px 15px;
   border-radius: 5px;
-  background-color: blue;
+  background-color: #ad368a;
 }
