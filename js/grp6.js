@@ -108,7 +108,7 @@ var recipes = [
   {
     title: "Macaroni and Cheese",
     link: "https://www.foodnetwork.com/recipes/ree-drummond/macaroni-and-cheese-recipe-1952854",
-    tags: "pasta"
+    tags: ["pasta"]
   },
   {
     title: "Baked Feta Pasta",
@@ -119,3 +119,29 @@ var recipes = [
 ]
 
 //function that searches through database and generates output for user
+
+
+var searchResults = [];
+var searchTags = ["vegan", "vegetarian"];
+
+// search through each record
+for (recNum=0; recNum < recipes.length; recNum++) {
+    // console.log(recipes[recNum]);
+    var thisRecipe = recipes[recNum];
+
+    var matchCount = 0;
+    // find record that has all searchTags
+    for (tagNum=0; tagNum < searchTags.length; tagNum++) {
+        var thisTag = searchTags[tagNum];
+        if (thisRecipe.tags.includes(thisTag)) {
+            matchCount++;
+        }
+    }
+    if (matchCount == searchTags.length) {
+        console.log("Match!", thisRecipe);
+        searchResults.push(thisRecipe);
+    }
+
+}
+
+console.log("Here are your match results:", searchResults);
