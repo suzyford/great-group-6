@@ -42,6 +42,7 @@ function remove(element, tag){
 //create function that lets user add a new tag
 function addTag(e){
   if(e.key == "Enter"){
+    search();
     //removes unwanted spaces form user tag
     let tag = e.target.value.replace(/\s+/g, ' ');
     //if tag length is greater than 1 and doesn't already exist
@@ -60,7 +61,6 @@ function addTag(e){
   }
 }
 
-input.addEventListener("keyup", addTag);
 
 //creates remove all tags function
 const removeBtn = document.querySelector("button");
@@ -120,9 +120,17 @@ var recipes = [
 
 //function that searches through database and generates output for user
 
+input.addEventListener("keyup", addTag);
+
+
+function search() {
 
 var searchResults = [];
-var searchTags = ["vegan", "vegetarian"];
+var searchStr = document.getElementById("userInput").value;
+var searchTags = searchStr.split(" ");
+
+console.log(searchTags[0]);
+
 
 // search through each record
 for (recNum=0; recNum < recipes.length; recNum++) {
@@ -139,9 +147,11 @@ for (recNum=0; recNum < recipes.length; recNum++) {
     }
     if (matchCount == searchTags.length) {
         console.log("Match!", thisRecipe);
+        $("#output").append("<div class=\"print\">" + thisRecipe.title + "\n" + thisRecipe.link + "</div");
         searchResults.push(thisRecipe);
     }
 
 }
 
-console.log("Here are your match results:", searchResults);
+console.log("Here are your match results:", searchResults.length);
+}
