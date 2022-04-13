@@ -115,7 +115,7 @@ padding: 18px 25px 20px;
   margin: 10px 0;
 }
 
-.content p{
+.wrapper p{
   font-size: 15px;
 }
 
@@ -170,4 +170,9 @@ padding: 18px 25px 20px;
   padding: 9px 15px;
   border-radius: 5px;
   background-color: #ad368a;
+}
+
+#output {
+  position: absolute;
+  bottom: 150px;
 }

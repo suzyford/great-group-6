@@ -155,5 +155,8 @@ for (recNum=0; recNum < recipes.length; recNum++) {
 
 console.log("Here are your match results:", searchResults.length);
 }
+<<<<<<< HEAD
 
 //function that searches through database and generates output for user
+=======
+>>>>>>> 2453dc8420130971dca4fceb5f98e5cc4eac9716
