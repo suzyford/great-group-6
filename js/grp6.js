@@ -42,6 +42,7 @@ function remove(element, tag){
 //create function that lets user add a new tag
 function addTag(e){
   if(e.key == "Enter"){
+    search();
     //removes unwanted spaces form user tag
     let tag = e.target.value.replace(/\s+/g, ' ');
     //if tag length is greater than 1 and doesn't already exist
@@ -60,7 +61,6 @@ function addTag(e){
   }
 }
 
-input.addEventListener("keyup", addTag);
 
 //creates remove all tags function
 const removeBtn = document.querySelector("button");
@@ -108,7 +108,7 @@ var recipes = [
   {
     title: "Macaroni and Cheese",
     link: "https://www.foodnetwork.com/recipes/ree-drummond/macaroni-and-cheese-recipe-1952854",
-    tags: "pasta"
+    tags: ["pasta"]
   },
   {
     title: "Baked Feta Pasta",
@@ -117,5 +117,43 @@ var recipes = [
   }
 
 ]
+
+//function that searches through database and generates output for user
+
+input.addEventListener("keyup", addTag);
+
+
+function search() {
+
+var searchResults = [];
+var searchStr = document.getElementById("userInput").value;
+var searchTags = searchStr.split(" ");
+
+console.log(searchTags[0]);
+
+
+// search through each record
+for (recNum=0; recNum < recipes.length; recNum++) {
+    // console.log(recipes[recNum]);
+    var thisRecipe = recipes[recNum];
+
+    var matchCount = 0;
+    // find record that has all searchTags
+    for (tagNum=0; tagNum < searchTags.length; tagNum++) {
+        var thisTag = searchTags[tagNum];
+        if (thisRecipe.tags.includes(thisTag)) {
+            matchCount++;
+        }
+    }
+    if (matchCount == searchTags.length) {
+        console.log("Match!", thisRecipe);
+        $("#output").append("<div class=\"print\">" + thisRecipe.title + "\n" + thisRecipe.link + "</div");
+        searchResults.push(thisRecipe);
+    }
+
+}
+
+console.log("Here are your match results:", searchResults.length);
+}
 
 //function that searches through database and generates output for user

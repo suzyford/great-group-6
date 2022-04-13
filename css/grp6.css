@@ -1,11 +1,52 @@
 /*Amanda's CSS CodingNepal on YouTube used as reference*/
 
-.logo{
-   width: 46px;
-   height: 46px;
-   border-radius: 50%;
-   overflow: hidden;
-   margin-top: -6px;
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: #c6e0d5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 grey;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #fdf5ea;
+    text-decoration: none;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
 }
 /* The navigation bar */
 .navbar {
