@@ -33,7 +33,16 @@ header li a {
     color: #ad368a;
     text-decoration: none;
 }
-
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #c6e0d5;
+   color: #ad368a;
+   font-size: 14px;
+   text-align: center;
+}
 *{
   margin: 0;
   padding: 0;
