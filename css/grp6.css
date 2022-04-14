@@ -164,4 +164,5 @@ padding: 18px 25px 20px;
 #output {
   position: absolute;
   bottom: 150px;
+  display: contents;
 }
