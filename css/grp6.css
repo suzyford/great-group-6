@@ -1,6 +1,7 @@
 /*Amanda's CSS CodingNepal on YouTube used as reference*/
-
-
+img {
+   max-width: 100%
+ }
 header img {
     height: 50px;
     margin-left: 40px;
