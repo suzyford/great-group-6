@@ -10,6 +10,7 @@ countNumb = document.querySelector(".details span")
 
 let maxTags = 10,
 tags = [];
+outputs = [];
 
 countTag();
 
@@ -38,6 +39,11 @@ function remove(element, tag){
   element.parentElement.remove();
   countTag();
 }
+
+//create function that removes data when user removes tags
+
+
+
 
 //create function that lets user add a new tag
 function addTag(e){
@@ -145,9 +151,10 @@ for (recNum=0; recNum < recipes.length; recNum++) {
             matchCount++;
         }
     }
-    if (matchCount == searchTags.length) {
+    if (matchCount == searchTags.length && outputs.includes(thisRecipe) == false) {
         console.log("Match!", thisRecipe);
         $("#output").append("<div class=\"print\">" + thisRecipe.title + "\n" + thisRecipe.link + "</div");
+        outputs.push(thisRecipe);
         searchResults.push(thisRecipe);
     }
 
