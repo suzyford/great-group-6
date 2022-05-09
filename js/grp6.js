@@ -37,6 +37,10 @@ function remove(element, tag){
   tags = [...tags.slice(0,index), ...tags.slice(index + 1)];
   //removes li of removed tag
   element.parentElement.remove();
+  $('#output > div').each(function () {
+    if ( $(this).hasClass(tag)){ this.remove();   }
+
+   });
   countTag();
 }
 
@@ -151,11 +155,17 @@ for (recNum=0; recNum < recipes.length; recNum++) {
             matchCount++;
         }
     }
-    if (matchCount == searchTags.length && outputs.includes(thisRecipe) == false) {
+    if (matchCount == searchTags.length) {
         console.log("Match!", thisRecipe);
-        $("#output").append("<div class=\"print\">" + thisRecipe.title + "\n" + thisRecipe.link + "</div");
-        outputs.push(thisRecipe);
-        searchResults.push(thisRecipe);
+        var $recipeDiv =  $("<div class=\"print\">" + thisRecipe.title + "\n" + "<a href=" + thisRecipe.link + ">" + thisRecipe.link + "</a>" + "</div>")
+        thisRecipe.tags.forEach(element => $recipeDiv.addClass(element));
+        if(!$(`#${thisRecipe.title}`).length) {
+          $recipeDiv.attr("id", thisRecipe.title);
+          $("#output").append($recipeDiv);
+          outputs.push(thisRecipe);
+          searchResults.push(thisRecipe);
+        }
+
     }
 
 }
