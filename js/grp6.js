@@ -348,5 +348,6 @@ for (recNum=0; recNum < recipes.length; recNum++) {
 
 }
 
+
 console.log("Here are your match results:", searchResults.length);
 }
