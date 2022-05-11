@@ -58,7 +58,7 @@ function addTag(e){
     //if tag length is greater than 1 and doesn't already exist
     if(tag.length > 1 && !tags.includes(tag)){
       //limits the number of tags the user can enter
-      if(tags.length < 5){
+      if(tags.length < 10){
       //splits each tag from the comma
       tag.split(',').forEach(tag =>{
         //adds each tag to array
@@ -118,23 +118,17 @@ var recipes = [
  title: "Carrot and Habanero Tamales",
  link: "https://www.bonappetit.com/recipe/carrot-and-habanero-tamales",
  tags: ["vegan"],
- description: "Tamales originated in Mesoamerica long before colonization and have been evolving ever since. Because farmers tend to cure and store the maíz that tamales are made from by November, they’ve become a staple dish for the cold winter months. This particular tamale, filled with carrots, habaneros, and garlic, is my celebration of how the harvest from summer and fall floats into wintertime."
+ description: ""
 },
 {
  title: "Broccoli and Cashew Cream Soup",
  link: "https://www.bonappetit.com/recipe/broccoli-and-cashew-cream-soup",
- tags: ["vegan"],
- description: "Broccoli soup should be foundational in everyone’s weeknight cooking. It can be a dress-it-up or dress-it-down situation—packed with cheddar to bring that familiar oozy saltiness, or decked out with a mac and cheese topping, or simply served with croutons. This unintentionally vegan version is parred back yet doesn’t lack complex flavors or indulgence."
+ tags: ["vegan"]
 },
  {
   title: "Asian Stir-Fry",
   link: "https://loveveg.com/recipe/asian-stir-fry/",
   tags: ["vegetarian"],
-<<<<<<< HEAD
-  description: ""
-=======
-  description: "This meal is healthy, fresh, easy-to-prepare, and bursting with flavor. The ginger and spices come together in a way that brightens your mood and leaves you inspired long after the last bite. While the combo of vegetables listed are delicious, you can basically substitute any veggies you have on hand and it’ll come out great."
->>>>>>> 9d93394eab517b06f4afb8521a7d31d25953b861
 },
 {
   title: "Veggie Pasta Noodles",
@@ -157,8 +151,7 @@ var recipes = [
 {
   title: "Stuffed Loaded Potato Skins",
   link: "https://www.forksoverknives.com/recipes/vegan-baked-stuffed/loaded-vegan-potato-skins/",
-  tags: ["vegan"],
-  description: "These simple, budget-friendly vegan loaded potato skins make a delicious main dish with a side salad, but they’re also perfect as a quick snack the following day. The crispy twice-baked loaded potatoes skins are filled with a flavorful chickpea, caper, scallion, and sun-dried tomato mash, then topped with a creamy tahini sauce and fresh chives. They are filling, satisfying and just downright irresistible!"
+  tags: ["vegan"]
 },
 
   {
