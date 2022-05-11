@@ -118,12 +118,13 @@ var recipes = [
  title: "Carrot and Habanero Tamales",
  link: "https://www.bonappetit.com/recipe/carrot-and-habanero-tamales",
  tags: ["vegan"],
- description: ""
+ description: "Tamales originated in Mesoamerica long before colonization and have been evolving ever since. Because farmers tend to cure and store the maíz that tamales are made from by November, they’ve become a staple dish for the cold winter months. This particular tamale, filled with carrots, habaneros, and garlic, is my celebration of how the harvest from summer and fall floats into wintertime."
 },
 {
  title: "Broccoli and Cashew Cream Soup",
  link: "https://www.bonappetit.com/recipe/broccoli-and-cashew-cream-soup",
- tags: ["vegan"]
+ tags: ["vegan"],
+ description: "Broccoli soup should be foundational in everyone’s weeknight cooking. It can be a dress-it-up or dress-it-down situation—packed with cheddar to bring that familiar oozy saltiness, or decked out with a mac and cheese topping, or simply served with croutons."
 },
  {
   title: "Asian Stir-Fry",
@@ -151,7 +152,8 @@ var recipes = [
 {
   title: "Stuffed Loaded Potato Skins",
   link: "https://www.forksoverknives.com/recipes/vegan-baked-stuffed/loaded-vegan-potato-skins/",
-  tags: ["vegan"]
+  tags: ["vegan"],
+  description: "These simple, budget-friendly vegan loaded potato skins make a delicious main dish with a side salad, but they’re also perfect as a quick snack the following day. The crispy twice-baked loaded potatoes skins are filled with a flavorful chickpea, caper, scallion, and sun-dried tomato mash, then topped with a creamy tahini sauce and fresh chives. They are filling, satisfying and just downright irresistible!"
 },
 
   {
