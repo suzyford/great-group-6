@@ -8,7 +8,7 @@ const ul = document.querySelector("ul"),
 input = ul.querySelector("input"),
 countNumb = document.querySelector(".details span")
 
-let maxTags = 10,
+let maxTags = 5,
 tags = [];
 outputs = [];
 
@@ -72,14 +72,7 @@ function addTag(e){
 }
 
 
-//creates remove all tags function
-const removeBtn = document.querySelector("button");
-removeBtn.addEventListener("click", () => {
-  tags.length = 0;
-  //removes all li of tags
-  ul.querySelectorAll("li").forEach(li => li.remove());
-  countTag();
-});
+
 
 
 //Database of recipes
@@ -106,22 +99,26 @@ var recipes = [
  {
   title: "Nabe with Mushroom Dashi",
   link: "https://www.bonappetit.com/recipe/fridge-clean-out-nabe-with-mushroom-dashi",
-  tags: ["vegan"]
+  tags: ["vegan"],
+  description: "When associate editor Christina Chaey is short on time, she opts for a quick nabe, or hot pot, using her beloved Japanese donabe as a catchall for whatever vegetables she needs to use up. The ingredients listed in the recipe are merely suggestions; you could easily use kabocha squash or sliced sweet potatoes in place of the butternut, carrots in place of the turnips, or broccoli florets instead of (or in addition to) leafy greens. "
 },
 {
  title: "Coconut Ginger Chickpea Soup",
  link: "https://www.bonappetit.com/recipe/coconut-ginger-chickpea-soup",
- tags: ["vegan"]
+ tags: ["vegan"],
+ description: "This super-easy recipe is a perfect canvas for punchy, crunchy toppers like toasted coconut and mustard seeds with turmeric oil and a zingy chutney. The dal is vegan but full of hearty protein thanks to the chickpeas, lentils, and coconut milk. Serve the stew as the centerpiece surrounded by fixings that guests can pick and choose to build their own bowls."
 },
 {
  title: "Tofu and Summer Vegetable Curry",
  link: "https://www.bonappetit.com/recipe/tofu-and-summer-vegetable-curry",
- tags: ["vegan"]
+ tags: ["vegan"],
+ description: "This quick vegetarian curry from Heidi Swanson, the vegetarian cookbook author and blogger behind 101 Cookbooks, is a great way to use a CSA’s bounty of eggplant and summer squash. Feel free to change that lineup depending on your haul. You can eat the curry as is, or ladle it over cooked noodles or rice to add some heft."
 },
 {
  title: "Carrot and Habanero Tamales",
  link: "https://www.bonappetit.com/recipe/carrot-and-habanero-tamales",
- tags: ["vegan"]
+ tags: ["vegan"],
+ description: ""
 },
 {
  title: "Broccoli and Cashew Cream Soup",
