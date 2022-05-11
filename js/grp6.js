@@ -98,7 +98,8 @@ var recipes = [
   {
    title: "Raw Zucchini Lasagne",
    link: "https://loveveg.com/recipe/raw-zucchini-lasagna/",
-   tags: ["vegan"]
+   tags: ["vegan"],
+   description: "Zucchini is a great summertime vegetable! This lasagna is rich, refreshing and incredibly delicious. It takes almost no time to prepare so there is no excuse for not trying it. Enjoy!"
  },
  {
   title: "Nabe with Mushroom Dashi",
@@ -226,7 +227,7 @@ var recipes = [
 {
   title: "Sushi Rice with Miso Caramel Glazed Salmon",
   link: "https://www.bonappetit.com/recipe/sushi-rice-with-miso-caramel-glazed-salmon",
-  tags: ["fish"]
+  tags: ["fish"],
 },
 {
   title: "Zaatar Fish and Chips",
@@ -320,6 +321,7 @@ var searchTags = searchStr.split(" ");
 console.log(searchTags[0]);
 
 
+
 // search through each record
 for (recNum=0; recNum < recipes.length; recNum++) {
     // console.log(recipes[recNum]);
@@ -335,7 +337,15 @@ for (recNum=0; recNum < recipes.length; recNum++) {
     }
     if (matchCount == searchTags.length) {
         console.log("Match!", thisRecipe);
-        var $recipeDiv =  $("<div class=\"print\">" + thisRecipe.title + "\n" + "<a href=" + thisRecipe.link + ">" + thisRecipe.link + "</a>" + "</div>")
+        //var $recipeDiv =  $("<div class=\"print\">" + thisRecipe.title + "\n" + "<a href=" + thisRecipe.link + " target=_new>" + thisRecipe.link + "</a>" + "</div>")
+        var recipeHTML = `
+        <div class="print">
+        <h2 class="title">${thisRecipe.title}</h2>
+        <p class="description">${thisRecipe.description}</p>
+        <a class= "link" href="${thisRecipe.link}" target="_new">Read this recipe!</a>
+        </div>
+        `
+        var $recipeDiv = $(recipeHTML);
         thisRecipe.tags.forEach(element => $recipeDiv.addClass(element));
         if(!$(`#${thisRecipe.title}`).length) {
           $recipeDiv.attr("id", thisRecipe.title);
