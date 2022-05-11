@@ -6,7 +6,6 @@ header img {
     margin-left: 70px;
 }
 
-
 header {
     background-color: #ffffff;
     position: fixed;
@@ -70,7 +69,7 @@ h4 {
 }
 
 body{
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -179,5 +178,5 @@ a{
 }
 
 a:hover{
-  
+
 }
