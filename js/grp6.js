@@ -88,12 +88,14 @@ var recipes = [
   {
     title: "Creamy Coleslaw",
     link: "https://hippocrateswellness.org/learning-centre/meal-plans-recipes/creamy-coleslaw-raw-vegan/",
-    tags: ["vegetarian"]
+    tags: ["vegetarian"],
+    description: ""
   },
   {
     title: "Vegan Broccoli Cheddar Soup",
     link: "https://hippocrateswellness.org/learning-centre/meal-plans-recipes/raw-broccoli-better-than-cheddar-soup/",
-    tags: ["vegetarian"]
+    tags: ["vegetarian"],
+    description: ""
   },
   {
    title: "Raw Zucchini Lasagne",
@@ -129,22 +131,26 @@ var recipes = [
  {
   title: "Asian Stir-Fry",
   link: "https://loveveg.com/recipe/asian-stir-fry/",
-  tags: ["vegetarian"]
+  tags: ["vegetarian"],
+  description: ""
 },
 {
   title: "Veggie Pasta Noodles",
   link: "https://www.forksoverknives.com/recipes/vegan-pasta-noodles/dan-dan-mian-noodles-recipe/",
-  tags: ["vegetarian"]
+  tags: ["vegetarian"],
+  description: ""
 },
 {
   title: "Black Mango Bean Tacos",
   link: "https://www.forksoverknives.com/recipes/vegan-burgers-wraps/mango-black-bean-tacos/",
-  tags: ["vegetarian"]
+  tags: ["vegetarian"],
+  description: ""
 },
 {
   title: "Crispy Buffalo Cauliflower Bites",
   link: "https://www.forksoverknives.com/recipes/vegan-snacks-appetizers/crispy-buffalo-cauliflower-bites/",
-  tags: ["vegetarian"]
+  tags: ["vegetarian"],
+  description: ""
 },
 {
   title: "Stuffed Loaded Potato Skins",
@@ -257,52 +263,62 @@ var recipes = [
   {
     title: "Macaroni and Cheese",
     link: "https://www.foodnetwork.com/recipes/ree-drummond/macaroni-and-cheese-recipe-1952854",
-    tags: ["pasta"]
+    tags: ["pasta"],
+    description: ""
   },
   {
     title: "Baked Feta Pasta",
     link: "https://www.foodnetwork.com/recipes/food-network-kitchen/baked-feta-pasta-9867689",
-    tags: ["pasta"]
+    tags: ["pasta"],
+    description: ""
  },
  {
    title: "Pasta with Lemon Herb Yogurt",
    link: "https://www.foodnetwork.com/recipes/geoffrey-zakarian/pasta-with-lemon-herb-yogurt-sauce-6593456",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "Baby Shells Bechamel",
    link: "https://www.foodnetwork.com/recipes/jeff-mauro/baby-shells-bechamel-5670061",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "One Pot Super Easy Fusilli",
    link: "https://www.foodnetwork.com/recipes/jeff-mauro/one-pot-super-easy-fusilli-5423463",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "Cauliflower Alfredo Sauce",
    link: "https://www.foodnetwork.com/recipes/katie-lee/cauliflower-alfredo-sauce-3278457",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "Tortellini Salad with Tomato Arugula Dressing",
    link: "https://www.foodnetwork.com/recipes/jeff-mauro/tortellini-salad-with-tomato-arugula-dressing-2529993",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "Vegie Lasagne",
    link: "https://www.foodnetwork.com/recipes/marcela-valladolid/veggie-lasagna-3089113",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "Spaghetti Aglio-e-Olio",
    link: "https://www.foodnetwork.com/recipes/geoffrey-zakarian/spaghetti-aglio-e-olio-3106375",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  },
  {
    title: "Baked Feta Pasta",
    link: "https://www.foodnetwork.com/recipes/food-network-kitchen/baked-feta-pasta-9867689",
-   tags: ["pasta"]
+   tags: ["pasta"],
+   description: ""
  }
 
 ]
