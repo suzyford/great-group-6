@@ -98,7 +98,8 @@ var recipes = [
   {
    title: "Raw Zucchini Lasagne",
    link: "https://loveveg.com/recipe/raw-zucchini-lasagna/",
-   tags: ["vegan"]
+   tags: ["vegan"],
+   description: "Zucchini is a great summertime vegetable! This lasagna is rich, refreshing and incredibly delicious. It takes almost no time to prepare so there is no excuse for not trying it. Enjoy!"
  },
  {
   title: "Nabe with Mushroom Dashi",
@@ -341,7 +342,7 @@ for (recNum=0; recNum < recipes.length; recNum++) {
         <div class="print">
         <h2 class="title">${thisRecipe.title}</h2>
         <p class="description">${thisRecipe.description}</p>
-        <a href="${thisRecipe.link}" target="_new">Read this recipe!</a>
+        <a class= "link" href="${thisRecipe.link}" target="_new">Read this recipe!</a>
         </div>
         `
         var $recipeDiv = $(recipeHTML);
