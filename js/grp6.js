@@ -278,7 +278,7 @@ var recipes = [
     title: "Macaroni and Cheese",
     link: "https://www.foodnetwork.com/recipes/ree-drummond/macaroni-and-cheese-recipe-1952854",
     tags: ["pasta"],
-    description: "Just like my mama taught to make Mac n Cheese! Creamy,delicious, and customizable!"
+    description: "Just like my mama taught to make Mac n Cheese! Creamy, delicious, and customizable!"
   },
   {
     title: "Baked Feta Pasta",
