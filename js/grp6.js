@@ -293,12 +293,6 @@ var recipes = [
    description: "This Yogurt Lemon Pasta is the perfect, quick weeknight meal that will leave you feeling warm and toasty without being weighed down! Add chicken if you like or shrimp for a complete dinner"
  },
  {
-   title: "Creamy One Pot Pasta with Peas & Mint",
-   link: "https://www.bonappetit.com/recipe/creamy-one-pot-pasta-with-peas-and-mint",
-   tags: ["pasta"],
-   description: "This lightning-fast pasta with creamy peas, mint, and Parm is pantry dinner at its best, provided you keep heavy cream in your fridge at all times. And if you don't, you absolutely should: It lasts forever, and having some on hand means a creamy soup, scones, or a dollop or whipped cream are always in arm's reach."
- },
- {
    title: "Pasta with Zucchini",
    link: "https://theclevermeal.com/pasta-with-zucchini/",
    tags: ["pasta"],
@@ -308,7 +302,7 @@ var recipes = [
    title: "Cauliflower Alfredo Sauce",
    link: "https://www.foodnetwork.com/recipes/katie-lee/cauliflower-alfredo-sauce-3278457",
    tags: ["pasta"],
-   description: ""
+   description: "This from a reviewer: As a healthier alternative to alfredo sauce, it's great. I made it exactly as written, but easily adaptable for taste. Add more cheese, pepper, etc. Added chicken and mushrooms to mine. Excellent way to work more veggies into my diet. "
  },
  {
    title: "Tortellini Salad with Tomato Arugula Dressing",
@@ -372,7 +366,7 @@ for (recNum=0; recNum < recipes.length; recNum++) {
         <div class="print">
         <h2 class="title">${thisRecipe.title}</h2>
         <p class="description">${thisRecipe.description}</p>
-        <a class= "link" href="${thisRecipe.link}" target="_new">Read this recipe!</a>
+        <a class= "link" href="${thisRecipe.link}" target="_new">Get this recipe!</a>
         </div>
         `
         var $recipeDiv = $(recipeHTML);
