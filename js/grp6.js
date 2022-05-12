@@ -305,28 +305,28 @@ var recipes = [
    description: "This from a reviewer: As a healthier alternative to alfredo sauce, it's great. I made it exactly as written, but easily adaptable for taste. Add more cheese, pepper, etc. Added chicken and mushrooms to mine. Excellent way to work more veggies into my diet. "
  },
  {
-   title: "Tortellini Salad with Tomato Arugula Dressing",
-   link: "https://www.foodnetwork.com/recipes/jeff-mauro/tortellini-salad-with-tomato-arugula-dressing-2529993",
+   title: "Cherry Tomato Pasta Salad",
+   link: "https://theclevermeal.com/cherry-tomato-pasta/",
    tags: ["pasta"],
-   description: ""
+   description: "If you look for quick and easy pasta salad recipes with few ingredients, this is the one! A juicy and bursting with flavor pasta salad made with tomatoes, garlic, basil, and olive oil. Simple and so good."
  },
  {
-   title: "Vegie Lasagne",
-   link: "https://www.foodnetwork.com/recipes/marcela-valladolid/veggie-lasagna-3089113",
+   title: "Quick Garlic Mushroom Pasta",
+   link: "https://theclevermeal.com/garlic-mushroom-pasta/",
    tags: ["pasta"],
-   description: ""
+   description: "The smell of the garlic and the intensely flavored gravy released from the mushrooms take your basic spaghetti to the next level. If you love big bold flavors ready in 15 minutes, this one is for you."
  },
  {
-   title: "Spaghetti Aglio-e-Olio",
-   link: "https://www.foodnetwork.com/recipes/geoffrey-zakarian/spaghetti-aglio-e-olio-3106375",
+   title: "Lemon with Tuna Pasta",
+   link: "https://theclevermeal.com/pasta-salad-with-tuna/",
    tags: ["pasta"],
-   description: ""
+   description: "Forget tasteless pasta with canned tuna, this quick recipe is a game-changer. The refreshing juice and zest, mixed with olive oil and garlic, make this tuna pasta salad so good and tasty you can’t get enough of it."
  },
  {
-   title: "Baked Feta Pasta",
-   link: "https://www.foodnetwork.com/recipes/food-network-kitchen/baked-feta-pasta-9867689",
+   title: "Sun-Dried Tomato Pasta",
+   link: "https://theclevermeal.com/sun-dried-tomato-pesto-pasta-red-pesto/",
    tags: ["pasta"],
-   description: ""
+   description: "This scrumptious sun-dried tomato pasta combines creamy ricotta, intensely-flavored sun-dried tomatoes and fresh basil to make an easy delicious family meal. It’s also very quick to whip up, and ready in less than 15 minutes!"
  }
 
 ]
