@@ -82,13 +82,13 @@ var recipes = [
     title: "Creamy Coleslaw",
     link: "https://hippocrateswellness.org/learning-centre/meal-plans-recipes/creamy-coleslaw-raw-vegan/",
     tags: ["vegetarian"],
-    description: ""
+    description: "Hello Summer! This delicious creamy coleslaw is the perfect dish to bring to any bbq or picnic. Your friends won’t even know it’s dairy free (or raw vegan)!"
   },
   {
-    title: "Vegan Broccoli Cheddar Soup",
-    link: "https://hippocrateswellness.org/learning-centre/meal-plans-recipes/raw-broccoli-better-than-cheddar-soup/",
+    title: "Mushroom Stuffed with Creamed Spinach",
+    link: "https://hippocrateswellness.org/learning-centre/meal-plans-recipes/mushroom-stuffed-with-creamed-spinach/",
     tags: ["vegetarian"],
-    description: ""
+    description: "Filling, rich, creamy, and fully raw vegan/vegetarian. Enjoy our recipe for these sumptuous mushrooms as is, or warm right out of your dehydrator."
   },
   {
    title: "Raw Zucchini Lasagne",
@@ -130,24 +130,25 @@ var recipes = [
   title: "Asian Stir-Fry",
   link: "https://loveveg.com/recipe/asian-stir-fry/",
   tags: ["vegetarian"],
+  description: "If there was ever a go-to meal, this would be it. It’s healthy, fresh, easy-to-prepare, and bursting with flavor. The ginger and spices come together in a way that brightens your mood and leaves you inspired long after the last bite."
 },
 {
   title: "Veggie Pasta Noodles",
   link: "https://www.forksoverknives.com/recipes/vegan-pasta-noodles/dan-dan-mian-noodles-recipe/",
   tags: ["vegetarian"],
-  description: ""
+  description: "This is a fast, filling dish that shows the boldness of Szechuan cooking. Every ingredient stands out, from the pickled greens and chili-vinegar soy sauce to the succulent noodles."
 },
 {
   title: "Black Mango Bean Tacos",
   link: "https://www.forksoverknives.com/recipes/vegan-burgers-wraps/mango-black-bean-tacos/",
   tags: ["vegetarian"],
-  description: ""
+  description: "The cornerstone of every Blue Zones diet in the world? Beans. There are at least 70 varieties of beans to choose from and an infinite number of ways to prepare them. Here’s one delicious recipe to spark your bean-spiration."
 },
 {
   title: "Crispy Buffalo Cauliflower Bites",
   link: "https://www.forksoverknives.com/recipes/vegan-snacks-appetizers/crispy-buffalo-cauliflower-bites/",
   tags: ["vegetarian"],
-  description: ""
+  description: "It took a lot of trial and error to find the right coating that would not draw out the moisture and would make the florets crisp. This has turned out to be a very simple recipe. You will not need to add salt as the sauces have enough salt to season them. Either a smoky barbecue sauce or Frank’s hot sauce would work well, but if you are like me and prefer sweet and spicy, then try a little bit of both. Serve with ranch or Caesar dressing on the side if you wish"
 },
 {
   title: "Stuffed Loaded Potato Skins",
@@ -262,31 +263,31 @@ var recipes = [
     title: "Macaroni and Cheese",
     link: "https://www.foodnetwork.com/recipes/ree-drummond/macaroni-and-cheese-recipe-1952854",
     tags: ["pasta"],
-    description: ""
+    description: "Just like my mama taught to make Mac n Cheese! Creamy,delicious, and customizable!"
   },
   {
     title: "Baked Feta Pasta",
     link: "https://www.foodnetwork.com/recipes/food-network-kitchen/baked-feta-pasta-9867689",
     tags: ["pasta"],
-    description: ""
+    description: "Cherry tomatoes and a whole block of feta are baked until soft and melty, then tossed with garlic, basil and cooked noodles for a beautifully cheesy dish. Opted to use a short tube pasta so the sauce can get trapped inside each piece and add a pinch of flaky sea salt on top to perfectly balance the dish."
  },
  {
    title: "Pasta with Lemon Herb Yogurt",
    link: "https://www.foodnetwork.com/recipes/geoffrey-zakarian/pasta-with-lemon-herb-yogurt-sauce-6593456",
    tags: ["pasta"],
-   description: ""
+   description: "This Yogurt Lemon Pasta is the perfect, quick weeknight meal that will leave you feeling warm and toasty without being weighed down! Add chicken if you like or shrimp for a complete dinner"
  },
  {
-   title: "Baby Shells Bechamel",
-   link: "https://www.foodnetwork.com/recipes/jeff-mauro/baby-shells-bechamel-5670061",
+   title: "Creamy One Pot Pasta with Peas & Mint",
+   link: "https://www.bonappetit.com/recipe/creamy-one-pot-pasta-with-peas-and-mint",
    tags: ["pasta"],
-   description: ""
+   description: "This lightning-fast pasta with creamy peas, mint, and Parm is pantry dinner at its best, provided you keep heavy cream in your fridge at all times. And if you don't, you absolutely should: It lasts forever, and having some on hand means a creamy soup, scones, or a dollop or whipped cream are always in arm's reach."
  },
  {
-   title: "One Pot Super Easy Fusilli",
-   link: "https://www.foodnetwork.com/recipes/jeff-mauro/one-pot-super-easy-fusilli-5423463",
+   title: "Pasta with Zucchini",
+   link: "https://theclevermeal.com/pasta-with-zucchini/",
    tags: ["pasta"],
-   description: ""
+   description: "This delicious pasta with zucchini is ready in about 15 minutes and requires only 5 ingredients. A simple recipe that turns plenty of zucchini into a perfect family meal."
  },
  {
    title: "Cauliflower Alfredo Sauce",
