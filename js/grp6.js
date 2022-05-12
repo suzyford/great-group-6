@@ -160,104 +160,119 @@ var recipes = [
   {
     title: "Creamy Herb Chicken",
     link: "https://cafedelites.com/quick-easy-creamy-herb-chicken/",
-    tags: ["poultry"]
+    tags: ["poultry"],
+    description: "This Creamy Herb Chicken will become your favourite chicken recipe! WITH no heavy cream and dairy free options and just over 300 calories per serve!",
   },
   {
     title: "Garlic Chicken",
     link: "https://www.eatingwell.com/recipe/250495/garlic-chicken/",
-    tags: ["poultry"]
+    tags: ["poultry"],
+    description: "Whole garlic cloves are mild when simmered with chicken in a simple white wine-mustard sauce in this garlic chicken recipe.",
   },
   {
   title: "Sheet Pan Chicken Fajitas",
   link: "https://www.foodnetwork.com/recipes/food-network-kitchen/sheet-pan-chicken-fajitas-3680272",
-  tags: ["poultry"]
+  tags: ["poultry"],
+  description:"These protein-packed fajitas cleverly use a foil-lined baking sheet and broiler to make a quick and healthy weeknight meal with easy clean up.",
 },
 {
   title: "Lemon Chicken",
   link: "https://www.foodnetwork.com/recipes/rachael-ray/lemon-chicken-recipe-1939793",
-  tags: ["poultry"]
+  tags: ["poultry"],
+  description:"This meal is an easy and healthy main dish that is infused with lemon to give it that wonderful tangy taste that will make you feel wonderful.",
 },
 {
   title: "Teriyaki Meatballs",
   link: "https://eatfresh.org/recipe/main-dish/teriyaki-meatballs",
-  tags: ["poultry"]
+  tags: ["poultry"],
+  description:"Serve over brown rice and a side of veggies for a complete and balanced meal!",
 },
 {
   title: "Pineapple Chicken Stir-Fry",
   link: "https://eatfresh.org/recipe/main-dish/pineapple-chicken-stir-fry",
-  tags: ["poultry"]
+  tags: ["poultry"],
+  description:"This meal poultry meal has a wonderful blend of pineapple chunks, soy sauce, and red pepper flakes that will take you on a stroll of sweet, spicy, and savory flavors!",
 },
 {
   title: "Kickin Chicken Pitas",
   link: "https://eatfresh.org/recipe/main-dish/kickn-chicken-pitas",
-  tags: ["poultry"]
+  tags: ["poultry"],
+  description:"This crunchy snack is full of vitamins and minerals to keep you healthy and strong!",
 },
 {
   title: "Grilled Chicken Veggie Kabobs",
   link: "https://eatfresh.org/recipe/main-dish/grilled-chicken-vegetable-kabobs",
-  tags: ["poultry"]
+  tags: ["poultry"],
+  description:"Try these kabobs at your next family barbecue.",
 },
   {
     title: "Easy Turkey Skillet Dinner",
     link: "https://eatfresh.org/recipe/main-dish/easy-turkey-skillet-dinner",
-    tags: ["poultry"]
+    tags: ["poultry"],
+    description:"Serve this hearty meal with whole wheat bread and green salad.",
 },
 
   {
     title: "Fish Tacos",
     link: "https://eatfresh.org/recipe/main-dish/fish-tacos",
-    tags: ["fish"]
+    tags: ["fish"],
+    description:"Fish is full of Omega 3 fats, which is great for your brain and body.",
   },
   {
     title: "Spicy Broiled Lime Tilapia",
     link: "https://eatfresh.org/recipe/main-dish/spicy-broiled-tilapia-lime",
-    tags: ["fish"]
+    tags: ["fish"],
+    description:"You will be surprised at how fast this meal can be made! Broiled fish is crispy on the outside and moist on the inside.",
   },
 
 {
   title: "Roast Fish with Curry Butter",
   link: "https://www.bonappetit.com/recipe/roast-fish-with-curry-butter",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"The slow-roasting method that turns salmon all buttery and luxurious works equally well on the whole wide delicious world of flaky white fish, from cod to haddock.",
 },
 {
   title: "Roast Salmon with Smashed Green Bean Salad",
   link: "https://www.bonappetit.com/recipe/cold-roast-salmon-with-smashed-green-bean-salad",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"Roasting salmon low and slow yields fish that stays moist and tender even when served chilled.",
 },
 {
   title: "Cod with Tomato Basil",
   link: "https://www.foodnetwork.com/recipes/food-network-kitchen/cod-with-tomato-basil-salsa-parchment-pack-3532786",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"Steaming the ingredients together in a neat parchment packet creates layers of flavor without adding much fat or salt. And with everything contained, cleanup is a breeze!",
 },
 {
   title: "Sushi Rice with Miso Caramel Glazed Salmon",
   link: "https://www.bonappetit.com/recipe/sushi-rice-with-miso-caramel-glazed-salmon",
   tags: ["fish"],
+  description:"The tastiest rice is seasoned sushi rice. It has vinegar, salt, and sugar added to develop a wide range of flavors, making it a dynamic counterpart to simple fish.",
 },
 {
   title: "Zaatar Fish and Chips",
   link: "https://www.bonappetit.com/recipe/zaatar-fish-and-chips",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"Olives and superfast pickled onions balance out creamy-crispy potatoes and roast cod.",
 },
-{
-  title: "Zaatar Fish and Chips",
-  link: "https://www.bonappetit.com/recipe/zaatar-fish-and-chips",
-  tags: ["fish"]
-},
+
 {
   title: "Grilled Swordfish with Tomatoes and Oregano",
   link: "https://www.bonappetit.com/recipe/grilled-swordfish-with-tomatoes-and-oregano",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"We're flipping the script and marinating after grilling. Inspired by the technique called escabèche, where cooked fish and meat are preserved in an acidic mixture.",
 },
 {
   title: "Butter Roasted Halibut with Asparagus and Olives",
   link: "https://www.bonappetit.com/recipe/butter-roasted-halibut-with-asparagus-and-olives",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"Our best tip for cooking fish for a crowd? Slow-roast a single large fish fillet instead of making several small ones—it ensures that the fish is buttery and delicious.",
 },
 {
   title: "Sichuan Broiled Fish",
   link: "https://www.bonappetit.com/recipe/sichuan-boiled-fish",
-  tags: ["fish"]
+  tags: ["fish"],
+  description:"The flavors of this fish are out of control—super spicy, super intense, super delicious. This recipe moves fast, though, so stay on top of it by prepping and lining up your ingredients before you start cooking.",
 },
   {
     title: "Macaroni and Cheese",
