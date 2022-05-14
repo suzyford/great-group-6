@@ -6,6 +6,56 @@ header img {
     margin-left: 70px;
 }
 
+}
+.body {
+ padding-top: 25px;
+}
+
+.scroll {
+ height: 75px;
+ overflow: hidden;
+ position: relative;
+}
+.scroll h3 {
+ font-size: 5em;
+ color: #ad368a;
+ position: absolute;
+ width: 130%;
+ height: 100%;
+ margin: 0;
+ line-height: 80px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: example1 20s linear infinite;
+ -webkit-animation: example1 20s linear infinite;
+ animation: example1 20s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+
 header {
     background-color: #ffffff;
     position: fixed;
@@ -186,7 +236,7 @@ a:hover{
 }
 .link {
   font-size: 20px;
-  
+
 }.description {
   font-size: 20px;
 }
